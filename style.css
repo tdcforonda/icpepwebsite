@@ -1,0 +1,42 @@
+html{
+    margin: 0;
+    height: 100%;
+}
+body{
+    background-color: #2F2FA2;
+    height: 100%;
+    display: flex;
+}
+
+.logo{
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.img{
+    position: absolute;
+    z-index:1;
+    max-width: 100%;
+    height: auto;
+}
+
+h1{
+    position: relative;
+    left: 2.5rem;
+    color: white;
+    background-color: #553D67;
+    text-align: center;
+    /* padding: 0.5rem 3rem; */
+    padding-left: 5rem;
+    padding-right: 5rem;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    z-index: -1;
+    border-radius: 2rem 2rem;
+    box-shadow: -0.4rem -0.4rem #402E4D;
+    font-family: 'JetBrains Mono', monospace;
+    font-family: 'Nanum Gothic Coding', monospace;
+    font-size: 3rem;
+}
